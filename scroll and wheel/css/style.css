@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.text {
+	width: 50px;
+}
+#top {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+#test {
+	width: 600px;
+	height: 100px;
+	background: yellow;
+	margin: 50px;
+	position: relative;
+}
+#test2 {
+	width: 10px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	left: 290px;
+	top: 0;
+}
+.ex2{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 80%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-direction: column;
+}
