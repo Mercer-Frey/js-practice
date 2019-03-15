@@ -1,7 +1,7 @@
-var sec = 6;
+var sec = 0;
 var min = 0;
 var hour = 0;
-var speed = 1000;
+var speed = 300;
 // var range = document.querySelector('#r1');
 // var input = document.querySelector('#input');
 // 	range.addEventListener('input', function (){
@@ -16,7 +16,7 @@ function fSec(){
 	document.querySelector('#sec').style.transform = 'rotate('+sec+'deg)';
 	document.querySelector('#min').style.transform = 'rotate('+min+'deg)';
 	document.querySelector('#hour').style.transform = 'rotate('+hour+'deg)';
-	if (sec+6 == 360) {
+	if (sec+6 == 366) {
 		sec = 0;
 		min = min + 6;
 		if(min+30 == 360){

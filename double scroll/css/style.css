@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+.container{
+	width: 600px;
+	height: 400px;
+	margin: 200px auto;
+	background-color: bisque;
+	overflow: hidden;
+}
+.block{
+	position: relative;
+	display: flex;
+	height: 100%;
+	text-align: center;
+}
+.block-left{
+	position: absolute;
+	width: 300px;
+	background-color: salmon;
+	top: 0;
+	left: 0;
+}
+.block-right{
+	position: absolute;
+	width: 300px;
+	right: 0;
+	bottom: 0;
+	background-color: turquoise;
+}
