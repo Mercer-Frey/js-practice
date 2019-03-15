@@ -1,3 +1,4 @@
+
 let a = [];
 let b = [12, 13, 66, 999];
 console.log( b.length );
