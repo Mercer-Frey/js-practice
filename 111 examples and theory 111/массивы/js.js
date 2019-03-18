@@ -180,3 +180,23 @@ let z = arr.reduceRight(function(prev, current, index){
 	return prev + current;
 })	
 console.log(z);
+
+
+// Задание 1. Дан массив mas. Выведите его на страницу HTML в формате индекс элемента — значение (через три дефиса). Каждый элемент с новой строки.
+	// mas = [15, 'hello', 'trump', 23, 'world', 999, 176];
+// let mas = [15, 'hello', 'trump', 23, 'world', 999, 176];
+// 	masString = mas.join("---");
+// 	document.getElementById('out').innerHTML = (masString);
+
+// Задание 2. Дан массив mas. Выведите его на страницу HTML в формате индекс элемента — значение (через дефис). Каждый элемент с новой строки. Выводить нужно те элементы, значение которых больше пяти (5).
+	// mas = [2, 3, 4, 5, 6, 4, 77, 32, 4];
+
+// let mas = [2, 3, 4, 5, 6, 4, 77, 32, 4];
+// let newMas = [];
+// 	for (var i = 0; i < mas.length; i++) {
+// 		if (mas[i] > 5){
+// 			newMas.push(mas[i]);
+// 		}
+// 	}
+// 	masString = newMas.join("<br> - ");
+// 	document.getElementById('out').innerHTML = ("- " + masString);
